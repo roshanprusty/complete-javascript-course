@@ -1,13 +1,13 @@
 Classes
 Getters
 Inheritance
-    Class vs Function
-    Private class fields
-    Public class fields
-    inheritance
-    prototypal inheritance
-    prototype chain
-    super()
+    ->Class vs Function
+    ->Private class fields
+    ->Public class fields
+    ->inheritance
+    ->prototypal inheritance
+    ->prototype chain
+    ->super()
 Instance methods
 Instance variables
 Setters
