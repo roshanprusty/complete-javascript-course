@@ -222,9 +222,9 @@
 //         name:"roshan",
 //         // age:20
 //     },
-    // qualification:{
-    //     bdeg:"lpu",
-    // }
+// qualification:{
+//     bdeg:"lpu",
+// }
 // }
 // let accessName= obj.person.name;
 // console.log(accessName); //roshan
@@ -252,16 +252,15 @@
 // console.log(b); // Expected output: 20
 // [a, b, ...rest] = [10, 20, 30, 40, 50];
 // console.log(rest); // Expected output: Array [30, 40, 50]
-// const x = [1, 2, 3, 4, 5];
-// const [y, z] = x;
-// console.log(y); // 1
-// console.log(z); // 2
+const x = [1, 2, 3, 4, 5];
+const [y, z, ,a] = x;
+console.log(y); // 1
+console.log(z); // 2
+console.log(a); // 4
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // reverse()
 // let arr =[1,2,3];
 // console.log(arr);
 // console.log(arr.reverse());
-
-
 
