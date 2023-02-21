@@ -103,3 +103,20 @@
 // An error occurred: ReferenceError: y is not defined
 // The try...catch...finally statement is complete.
  
+//note : without catch try can't work ....(dono aketha chalte hai)
+//     : if you skip catch then it will throw error but remember if you have used finally it will throw error bcz of not using catch then finally code will run
+// try{
+//     console.log(a);
+// }
+// // catch(error){
+// //     console.log("a is not defined");
+// //     console.log(error);
+// // }
+// finally{
+//     console.log(".....");
+// }
+
+// O/p: 
+// .....
+// temp.js:4 Uncaught ReferenceError: a is not defined
+    
